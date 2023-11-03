@@ -1,0 +1,14 @@
+.rules-list span {
+  color: white;
+  width: 35px;
+}
+.rules-list p {
+  text-align: justify;
+  margin: 0;
+}
+
+.rules-list div {
+  display: grid;
+  grid-template-columns: 1fr 10fr;
+  padding: 5px;
+}

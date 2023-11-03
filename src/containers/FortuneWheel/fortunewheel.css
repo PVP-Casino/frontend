@@ -1,0 +1,179 @@
+.fortunewheel {
+  display: grid;
+  grid-template-columns: 64fr 35fr;
+  padding-right: 10px;
+  position: relative;
+}
+
+.fortunewheel .Home_content1 {
+  margin-top: 15px;
+}
+
+.card {
+  box-shadow: none;
+}
+
+.Enter_transaction_select_token {
+  box-shadow: none;
+  border: 1px solid white;
+}
+
+.fortunewheel-activity {
+  width: 100%;
+  position: relative;
+  top: -75px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.fortunewheel-spin-counter {
+  position: absolute;
+  color: white;
+  background: #393b47;
+  top: 26px;
+  left: 0;
+  padding: 10px 0px 10px 10px;
+  min-width: 80px;
+}
+
+.fortunewheel-spin-counter:after {
+  content: '';
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: inherit;
+  z-index: -1;
+  top: 0;
+
+  right: -25%;
+  transform-origin: right;
+  transform: skewX(-30deg);
+}
+
+.next-spin {
+  font-size: 12px;
+}
+
+.spin-time-left {
+  font-size: 28px !important;
+  color: #f7c41e;
+}
+
+@media screen and (orientation: portrait) {}
+
+@media (pointer: coarse) {
+  /* mobile device */
+}
+
+@media only screen and (max-width: 768px) {
+  .fortunewheel-activity .fortunewheel-activity-player {
+    font-size: 10px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .spin-time-left {
+    font-size: 20px !important;
+  }
+
+  .next-spin {
+    font-size: 8px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .fortunewheel .Home_content1 {
+    margin-top: 75px;
+  }
+
+  .fortunewheel {
+    padding-right: 0px;
+  }
+}
+
+.fortunewheel-page {
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  position: relative;
+  margin-top: 0rem;
+  margin-bottom: 45px;
+}
+
+@media only screen and (min-width: 1800px) {
+  .fortunewheel-page {
+    margin-bottom: 0px;
+  }
+}
+
+.clear-all-selection-container {
+  text-align: right;
+  align-self: center;
+}
+
+.clear-all-selection {
+  cursor: pointer;
+  color: rgb(161, 160, 160);
+  font-size: 14px;
+}
+
+.MuiAccordionSummary-content {
+  margin: 6px 0px !important;
+}
+
+.round-status {
+  position: absolute;
+  text-transform: uppercase;
+  font-size: 9px;
+  padding: 2px 0px;
+  left: 0px;
+  bottom: -15px;
+  width: 92px;
+  text-align: center;
+}
+
+@media screen and (max-width: 500px) {
+  .round-status {
+    width: 95px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .Home_content1 {
+    margin-top: 75px;
+  }
+
+  .fortunewheel {
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+
+  .fortunewheel-page {
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+
+  .fortunewheel-activity {
+    top: 0px;
+  }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1280px) {
+  .fortunewheel-page {
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .clear-all-selection-container {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}
+
+/* @media only screen and (max-width: 1520px) {
+    .fortunewheel-activity {
+      top:-25px;
+    }
+  } */

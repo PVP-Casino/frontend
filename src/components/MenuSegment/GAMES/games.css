@@ -1,0 +1,25 @@
+.light_bg .Games {
+  padding: 0px 5px;
+  color: grey;
+  font-weight: 900;
+}
+
+.menuItems_dark {
+  /* background: #454753; */
+  font-weight: 700;
+  box-shadow: inset 0px 0px 10px #161821, 0px 0px 5px #414c7f;
+  border: 1px solid #1f253e;
+  border-radius: 15px;
+  background: linear-gradient(271deg, transparent, #232c46);
+}
+
+.menuItems_light {
+  font-weight: 800;
+}
+
+.CurrentGame a {
+  color: white;
+}
+
+@media only screen and (max-width: 1024px) {
+}

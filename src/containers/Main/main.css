@@ -1,0 +1,111 @@
+.main-page-title {
+  color: #d3d3d3;
+  font-size: 40px;
+  font-weight: 900;
+}
+
+.main-page-left {
+  margin: auto;
+  width: 69%;
+}
+
+.main-page-right {
+  margin: 0px 30px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.powered-by-div {
+  /* display: flex; */
+  align-items: center;
+  margin: 30px 0px;
+}
+
+.powered-by-label {
+  text-transform: uppercase;
+  color: grey;
+  font-size: 12px !important;
+}
+
+.green-badge {
+  background: #658a17;
+  border-radius: 15px;
+  padding: 3px 10px;
+  color: white;
+}
+
+.token-list-div {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 80%;
+}
+
+.stake-div {
+  border: 2px solid #887615;
+  border-radius: 10px;
+  box-shadow: 3px 3px 9px #545431, -3px -3px 9px #545431;
+  padding: 20px;
+  min-width: 250px;
+  margin: auto;
+  cursor: pointer;
+}
+
+.advantage-div {
+  margin-top: 50px;
+}
+
+.main-token-list-div {
+  padding: 20px;
+}
+
+.main-token-name {
+  color: lightgrey;
+  font-size: 16px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.main-token-img {
+  width: 40px;
+}
+@media screen and (max-width: 1024px) {
+  .main-token-name {
+    font-size: 12px;
+  }
+
+  .extra-badge {
+    margin: 10px 0px;
+  }
+
+  .main-token-img {
+    width: 30px;
+  }
+  .chain-link-img {
+    width: 230px;
+  }
+  .stake-div {
+    margin-top: 40px;
+  }
+  .main-token-list-div {
+    padding: 0px;
+  }
+
+  .main-page-left {
+    width: calc(100% - 40px);
+    margin: auto;
+  }
+
+  .token-list-div {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .main-page-right {
+    margin: 0px;
+  }
+}

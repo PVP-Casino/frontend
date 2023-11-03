@@ -1,0 +1,159 @@
+.fortune-enter-btn {
+  background: linear-gradient(178deg, rgb(4, 109, 56), rgb(82 117 4)) !important;
+  color: white !important;
+}
+
+.fortune-enter-container .Enter_not_selected {
+  color: #494b53;
+}
+
+.fortune-enter-btn .rotate {
+  animation: rotate 3s infinite linear;
+}
+
+.approve-div {
+  font-size: 12px;
+  bottom: -3px;
+  left: 40%;
+  position: absolute;
+}
+
+.Enter_transaction_ {
+  position: relative;
+}
+
+.MuiIconButton-label {
+  color: #d3d3d3;
+}
+
+.fortune-amount-container {
+  width: calc(100% - 45px);
+}
+
+.fortune-enter-amount {
+  text-align: left;
+  min-height: 30px;
+  font-size: 25px;
+  outline: none;
+  border: 0px;
+  border-radius: 15px;
+  max-width: 150px;
+  background: #e8e8e800;
+  padding: 0px 5px;
+  margin: 0px 5px;
+  color: grey;
+}
+
+.powerball-usd-amount {
+  text-transform: uppercase;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotateZ(0deg);
+  }
+
+  100% {
+    transform: rotateZ(360deg);
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .fortune-enter-container .Enter.card {
+    width: calc(100% - 10px);
+    margin-bottom: 43px;
+  }
+
+  .fortune-enter-container .approve-div {
+    left: 23px;
+  }
+
+  .fortune-enter-container .Enter_transaction_ {
+    height: 126px;
+    margin-bottom: 10px;
+  }
+
+  .fortune-amount-container {
+    width: calc(100% - 23px);
+  }
+
+  .fortune-enter-amount {
+    font-size: 18px;
+  }
+}
+.Enter_connect {
+  position: relative;
+  text-decoration: none;
+  color: #fff;
+  font-size: 2em;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  letter-spacing: 2px;
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 5px 5px rgb(63, 63, 63);
+}
+
+.Enter_connect:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.4), transparent);
+  transition: 0.5s;
+  transition-delay: 0.5s;
+}
+.Enter_connect:hover:after {
+  left: 100%;
+}
+.Enter_connect span {
+  position: absolute;
+  display: block;
+  transition: 0.5s ease;
+}
+.Enter_connect span:nth-child(1) {
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 1px;
+  background: #fff;
+}
+.Enter_connect:hover span:nth-child(1) {
+  width: 100%;
+  transform: translateX(100%);
+}
+.Enter_connect span:nth-child(3) {
+  bottom: 0;
+  right: 0;
+  width: 0;
+  height: 1px;
+  background: #fff;
+}
+.Enter_connect:hover span:nth-child(3) {
+  width: 100%;
+  transform: translateX(-100%);
+}
+.Enter_connect span:nth-child(2) {
+  top: 0;
+  left: 0;
+  width: 1px;
+  height: 0;
+  background: #fff;
+}
+.Enter_connect:hover span:nth-child(2) {
+  height: 100%;
+  transform: translateY(100%);
+}
+.Enter_connect span:nth-child(4) {
+  bottom: 0;
+  right: 0;
+  width: 1px;
+  height: 0;
+  background: #fff;
+}
+.Enter_connect:hover span:nth-child(4) {
+  height: 100%;
+  transform: translateY(-100%);
+}

@@ -1,0 +1,102 @@
+.latest-div {
+  margin-top: 10px;
+  margin: auto;
+}
+.pulse {
+  height: 45px;
+}
+
+.live-badge {
+  color: white;
+  background: #a43234;
+  border-radius: 10px;
+  padding: 3px 10px;
+  font-size: 10px;
+  text-transform: uppercase;
+}
+
+.latest-winner-title {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 60px;
+}
+
+.latest-powerball-index {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  color: white;
+}
+
+.winner-item {
+  background: #393b47;
+  min-width: 260px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  margin: 25px 0px;
+  border-radius: 10px;
+  transition: all linear 1s;
+  cursor: pointer;
+}
+.winner-item:hover {
+  transform: scale(1.02);
+}
+.fortune-mark {
+  font-weight: 900;
+  text-transform: uppercase;
+}
+.mark-div {
+  align-self: center;
+  color: lightgrey;
+  padding: 10px;
+  background: #444652;
+  border-radius: 8px;
+  width: 40px;
+}
+
+.address-div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.wallet-address-div {
+  display: flex;
+  color: grey;
+  /* align-content: flex-end; */
+  align-items: center;
+}
+
+.roulette-mark.red {
+  background: red;
+}
+
+.roulette-mark.black {
+  background: black;
+}
+
+.roulette-mark.green {
+  background: green;
+}
+
+.wheel-mark {
+  background: #a43234;
+}
+
+.winner-game-container {
+  cursor: pointer;
+}
+
+.latest-winner-coming-soon-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.latest-winner-coming-soon {
+  font-size: 18px !important;
+  text-align: center;
+  font-weight: 700 !important;
+  color: #535563 !important;
+}
